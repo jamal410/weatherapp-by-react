@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { useState, useEffect } from "react";
@@ -29,9 +29,10 @@ function App() {
           //handle error
           console.log(error);
         })
+      }
       return 
       <div>
-  
+  shehzaD
         <form onSubmit={submitHandler}>
           <input type="text"
             placeholder='Enter City Name'
